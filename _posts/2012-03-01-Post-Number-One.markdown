@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Post Number One, It is going to be a winner for sure
+title: Sample Post Number One 
 ---
 
 Here is where I am going to put my text
