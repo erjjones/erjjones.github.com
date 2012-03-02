@@ -17,7 +17,6 @@ title: Sample Post Number Two
 
     <!-- Popovers
     ================================================== -->
-    <section id="popovers">
       <div class="page-header">
         <h1>Popovers <small>bootstrap-popover.js</small></h1>
       </div>
@@ -119,4 +118,4 @@ title: Sample Post Number Two
           <pre class="prettyprint linenums">$('#element').popover('toggle')</pre>
         </div>
       </div>
-    </section>
+
