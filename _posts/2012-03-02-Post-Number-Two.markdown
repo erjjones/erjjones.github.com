@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Sample Post Number Two 
-category: cooking
+title: Sample Coding Post
+category: coding
 ---
 
 <div class="row">
