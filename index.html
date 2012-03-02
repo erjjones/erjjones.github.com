@@ -7,7 +7,7 @@ title: erjjones
     <h3>Blog Posts</h3>
     {% for post in site.posts %} 
     <p class='post'>
-      <a href='{{ post.url }}'>{{ post.title }}</a>
+      <a href='{{ post.url }}'>{{ post.title }}</a> &nbsp; {{ post.date }}
     </p>
     {% endfor %}
   </p>
