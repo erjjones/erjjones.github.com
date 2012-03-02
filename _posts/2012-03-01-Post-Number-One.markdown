@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sample Post Number One 
+category: coding
 ---
 
 <header class="jumbotron subhead" id="overview">  
