@@ -36,6 +36,14 @@ body {
   text-decoration: none;
 }
 
+img.floatLeft { 
+    float: left; 
+    margin: 4px; 
+}
+img.floatRight { 
+    float: right; 
+    margin: 4px; 
+}
 
 /* Space out sub-sections more
 -------------------------------------------------- */

@@ -4,7 +4,7 @@ title: "Eric Jones"
 ---
 
 <div class="content">	  
-	<div class="row">
+	<div class="row">		
 		<div class="span4 columns">
 		  <img class="bs-icon" src="/img/glyphicons/glyphicons_244_conversation.png">
 		  <h2>Coding. Cars. Cooking.</h2>
@@ -17,6 +17,24 @@ title: "Eric Jones"
 			  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 			  <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> . {{ post.category }} . <a href="{{ post.url }}#disqus_thread"></a></small></p>			
 			  {% endfor %}	
+		</div>		
+		<div class="span4 columns">
+		  <img class="bs-icon" src="/img/glyphicons/glyphicons_006_user_add.png">
+		  <h2>About <small>Me</small></h2>
+		  <p><img src="http://www.gravatar.com/avatar/ca1556da271e3177836fdd55bc926ecd.png" alt="Eric Jones" title="Follow me on Twitter @erjjones" class="floatLeft" /> My name is <strong>Eric</strong> and I am a lifetime student, amateur software engineer, car enthusiast, and want to be chef.  Most importantly I am a father, husband and a Christian.</p>	  		  
+		  <br/>
+		  <p><a href="https://twitter.com/erjjones" class="twitter-follow-button btn btn-mini" data-show-count="false">Follow @erjjones</a>
+				 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
+		  <br/><br/>
+		  <img class="bs-icon" src="/img/glyphicons/glyphicons_042_group.png">
+		  <h2>Blogs/Feeds <small>I Follow</small></h2>
+		  <ul>
+			<li><a href="http://news.ycombinator.com/" target="_blank">Y Combinator</a> hacker news feed</li>
+			<li><a href="http://paulirish.com/" target="_blank">Paul Irish</a> frontend developer's blog</li>
+			<li><a href="http://www.hanselman.com/blog/" target="_blank">Scott Hanselman</a> microsoft evangelist blog</li>
+			<li><a href="http://addyosmani.com/blog/" target="_blank">Addy Osmani</a> frontend developer's blog</li>
+			<li><a href="http://www.schneier.com/" target="_blank">Bruce Schneier</a> security blog</li>
+		  </ul>
 		</div>		
 	</div>
 </div>
