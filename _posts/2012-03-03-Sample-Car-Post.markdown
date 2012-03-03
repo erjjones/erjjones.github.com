@@ -6,16 +6,20 @@ category: Cars
 
 <div class="row">
 	<div class="span3 columns">
-	  <h3>About this topic</h3>
+	  <h3>About this topic</h3>	  	
 	  <p>A sample set of the images and instructions used in this post have been created for you to download.</p>	  
-	  <a href="#" target="_blank" class="btn">Download instructions</a>
-	</div>
+	  <p><a href="#" target="_blank" class="btn">Download instructions</a></p>       
+	  <p><a href="https://twitter.com/share" class="twitter-share-button" data-via="erjjones">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
+    </div>
 	<div class="span9 columns">
 	  <h2>Section Title</h2>
 	  <p>Like you, we love building awesome products on the web. We love it so much, we decided to help people just like us do it easier, better, and faster. Bootstrap is built for you.</p>  
 	  <hr>
 	  <h2>Another Section Title</h2>
 	  <p>Like you, we love building awesome products on the web. We love it so much, we decided to help people just like us do it easier, better, and faster. Bootstrap is built for you.</p>
+	
+	  <!-- Social -->	  
+	  
 	</div>
 </div>
 
@@ -40,3 +44,4 @@ category: Cars
 		<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
 	</div>
 </div>
+
