@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sample Cooking Post 
-category: cooking
+category: Cooking
 ---
 
 <header class="jumbotron subhead" id="overview">  
