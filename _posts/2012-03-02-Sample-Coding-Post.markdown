@@ -17,14 +17,15 @@ category: Coding
 	  <hr>
 	  <h2>Another Section Title</h2>
 	  <p>Like you, we love building awesome products on the web. We love it so much, we decided to help people just like us do it easier, better, and faster. Bootstrap is built for you.</p>
+	  <hr>
 	</div>
-</div>
-
-<hr class="soften">   
+</div> 
 
 <div class="row">
 	<div class="span3 columns">&nbsp;</div>
-    <div class="span9 columns">     
+    <div class="span9 columns">    
+		<h2>Comments Section</h2>
+	    <p>Feel free to comment on the post but keep it clean and on topic.</p>	
 		<div id="disqus_thread"></div>
 		<script type="text/javascript">
 			/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
