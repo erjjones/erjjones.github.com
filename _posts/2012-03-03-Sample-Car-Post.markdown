@@ -16,10 +16,7 @@ category: Cars
 	  <p>Like you, we love building awesome products on the web. We love it so much, we decided to help people just like us do it easier, better, and faster. Bootstrap is built for you.</p>  
 	  <hr>
 	  <h2>Another Section Title</h2>
-	  <p>Like you, we love building awesome products on the web. We love it so much, we decided to help people just like us do it easier, better, and faster. Bootstrap is built for you.</p>
-	
-	  <!-- Social -->	  
-	  
+	  <p>Like you, we love building awesome products on the web. We love it so much, we decided to help people just like us do it easier, better, and faster. Bootstrap is built for you.</p>	  
 	</div>
 </div>
 
