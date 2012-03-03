@@ -8,7 +8,7 @@ category: Cooking
 	<div class="span3 columns">
 	  <h3>About this topic</h3>
 	  <p>A sample set of the recipes and instructions used in this post have been created for you to download.</p>	  
-	  <p><a href="#" target="_blank" class="btn">Download recipe</a></p>
+	  <p><a href="#" target="_blank" class="btn btn-info">Download recipe</a></p>
 	  <p><a href="https://twitter.com/share" class="twitter-share-button" data-via="erjjones">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
 	</div>
 	<div class="span9 columns">
