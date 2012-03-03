@@ -4,22 +4,26 @@ title: Sample Cooking Post
 category: Cooking
 ---
 
-<header class="jumbotron subhead" id="overview">  
-  <p class="lead">Put a shameless plug style statement here explaining why I wrote this blog post</p>
-</header>
-<div class="marketing">  
-  <div class="row">
-    <div class="span8">      
-      <h2>Section Title</h2>
-      <p>Like you, we love building awesome products on the web. We love it so much, we decided to help people just like us do it easier, better, and faster. Bootstrap is built for you.</p>
-    </div>
-  </div>
+<div class="row">
+	<div class="span3 columns">
+	  <h3>About this topic</h3>
+	  <p>A sample set of the recipes and instructions used in this post have been created for you to download.</p>	  
+	  <a href="#" target="_blank" class="btn">Download recipe</a>
+	</div>
+	<div class="span9 columns">
+	  <h2>Section Title</h2>
+	  <p>Like you, we love building awesome products on the web. We love it so much, we decided to help people just like us do it easier, better, and faster. Bootstrap is built for you.</p>  
+	  <hr>
+	  <h2>Another Section Title</h2>
+	  <p>Like you, we love building awesome products on the web. We love it so much, we decided to help people just like us do it easier, better, and faster. Bootstrap is built for you.</p>
+	</div>
 </div>
 
 <hr class="soften">   
 
 <div class="row">
-    <div class="span8">     
+	<div class="span3 columns">&nbsp;</div>
+    <div class="span9 columns">     
 		<div id="disqus_thread"></div>
 		<script type="text/javascript">
 			/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */

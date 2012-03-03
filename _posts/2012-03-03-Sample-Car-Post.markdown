@@ -7,21 +7,23 @@ category: Cars
 <div class="row">
 	<div class="span3 columns">
 	  <h3>About this topic</h3>
-	  <p>A sample set of the code used in this post has been created for you to download.</p>	  
-	  <a href="#" target="_blank" class="btn" rel="popover" title="About this download" data-content="Unzip the file and navigate to the blank file and do x y z">Download source</a>
+	  <p>A sample set of the images and instructions used in this post have been created for you to download.</p>	  
+	  <a href="#" target="_blank" class="btn">Download instructions</a>
 	</div>
-<div class="span9 columns">
-  <h2>Section Title</h2>
-  <p>Like you, we love building awesome products on the web. We love it so much, we decided to help people just like us do it easier, better, and faster. Bootstrap is built for you.</p>  
-  <hr>
-  <h2>Another Section Title</h2>
-  <p>Like you, we love building awesome products on the web. We love it so much, we decided to help people just like us do it easier, better, and faster. Bootstrap is built for you.</p>
+	<div class="span9 columns">
+	  <h2>Section Title</h2>
+	  <p>Like you, we love building awesome products on the web. We love it so much, we decided to help people just like us do it easier, better, and faster. Bootstrap is built for you.</p>  
+	  <hr>
+	  <h2>Another Section Title</h2>
+	  <p>Like you, we love building awesome products on the web. We love it so much, we decided to help people just like us do it easier, better, and faster. Bootstrap is built for you.</p>
+	</div>
 </div>
 
 <hr class="soften">   
 
 <div class="row">
-    <div class="span8">     
+	<div class="span3 columns">&nbsp;</div>
+    <div class="span9 columns">     
 		<div id="disqus_thread"></div>
 		<script type="text/javascript">
 			/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
