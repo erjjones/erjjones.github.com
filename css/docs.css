@@ -38,7 +38,7 @@ body {
 
 img.floatLeft { 
     float: left; 
-    margin: 4px; 
+    margin: 4px 8px 4px 0px;  /*top, right, botom, left*/ 
 }
 img.floatRight { 
     float: right; 
