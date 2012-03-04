@@ -11,7 +11,9 @@
     <link href="/css/bootstrap.css" rel="stylesheet">
     <link href="/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="/css/docs.css" rel="stylesheet">
-    <link href="/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/jquery.githubwidget.min.css" type="text/css" media="screen" />	
+	<link href="/js/google-code-prettify/prettify.css" rel="stylesheet">
+	
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -104,7 +106,20 @@
     <script src="/js/bootstrap-carousel.js"></script>
     <script src="/js/bootstrap-typeahead.js"></script>
     <script src="/js/application.js"></script>
+	<script type="text/javascript" src="/js/jquery.githubwidget.min.js"></script>
 
+	<script type="text/javascript">
+		$('#ghw').githubWidget({
+			'username': 'Erjjones',
+			'displayActions': false,
+			'firstCount': 10,
+			'displayHeader': false,
+			'displayLastCommit': false,
+			'displayAccountInformations': false,
+			'displayLanguage': false
+		});
+	</script>
+	
 	<script type="text/javascript">
 		/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
 		var disqus_shortname = 'ericjones'; // required: replace example with your forum shortname
