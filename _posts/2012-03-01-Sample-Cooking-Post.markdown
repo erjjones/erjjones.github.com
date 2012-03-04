@@ -9,7 +9,11 @@ category: Cooking
 	  <h3>About this topic</h3>
 	  <p>A sample set of the recipes and instructions used in this post have been created for you to download.</p>	  
 	  <p><a href="#" target="_blank" class="btn btn-info">Download recipe</a></p>
-	  <p><a href="https://twitter.com/share" class="twitter-share-button" data-via="erjjones">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
+	  <br/>
+	  <h3>Topic buzz</h3>
+	  <p>What others are thinking. Add to the conversation and generate some chatter.</p>
+	  <p><a href="https://twitter.com/share" class="twitter-share-button" data-via="erjjones">Tweet</a></p>
+	  <p><g:plusone size="medium"></g:plusone></p>	  
 	</div>
 	<div class="span9 columns">
 	  <h2>Section Title</h2>
@@ -42,3 +46,15 @@ category: Cooking
 		<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
 	</div>
 </div>
+
+<!-- Twitter -->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<!-- Google + -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
