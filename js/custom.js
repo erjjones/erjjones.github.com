@@ -1,34 +1,14 @@
 jQuery(document).ready(function() {
-	/*$.ajax({
-			 type: "GET",
-			 url: "https://api.github.com/users/erjjones",
-			 async: true,
-		 dataType: "json",
-		 success: function(data){							
-			$('#gf').text(data.followers + ' GitHub Followers');
-			$('#gfr').text(data.public_repos + ' GitHub Repos');
-		 }
-		});
-		*/
+	
 	$('#gf').text('6 GitHub Followers');
-    $('#gfr').text('4 GitHub Repos');		
+    $('#gfr').text('5 GitHub Repos');		
 		
-	$.get('https://api.github.com/users/erjjones', function(res) { 		
-		console.log(res);
+	$.get('https://api.github.com/users/erjjones', function(res) { 			
 		var obj = jQuery.parseJSON(res);	
 		if(typeof obj.followers != 'undefined')		
-		{
-			console.log('logging obj');
-			console.log(obj);
+		{	
 			$('#gf').text(obj.followers + ' GitHub Followers');
 			$('#gfr').text(obj.public_repos + ' GitHub Repos');		
-		}
-		else
-		{
-			console.log('not logging obj');
-			console.log(obj);
-			$('#gf').text('10 GitHub Followers');
-		    $('#gfr').text('5 GitHub Repos');		
 		}		
     });
 	
