@@ -3,13 +3,12 @@ jQuery(document).ready(function() {
 	$('#gf').text('6 GitHub Followers');
     $('#gfr').text('5 GitHub Repos');		
 	
-	
 	jQuery.getJSON("https://api.github.com/users/erjjones&callback=?", function(data) {
 		$('#gf').text(data.followers + ' Followers');
         $('#gfr').text(data.public_repos + ' Repos');	
 	});
 	
-	$.get('https://api.github.com/users/erjjones', function(res) { 			
+	/*$.get('https://api.github.com/users/erjjones', function(res) { 			
 		var obj = jQuery.parseJSON(res);	
 		if(typeof obj.followers != 'undefined')		
 		{	
@@ -21,7 +20,7 @@ jQuery(document).ready(function() {
 			$('#gf').text('6 GitHub Followers');
 			$('#gfr').text('5 GitHub Repos');		
 		}
-    });
+    });*/
 	
 	$('#ghw').githubWidget({
 			'username': 'Erjjones',
