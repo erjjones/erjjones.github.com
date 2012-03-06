@@ -10,6 +10,9 @@ jQuery(document).ready(function() {
 		 }
 		});
 		*/
+	$('#gf').text('6 GitHub Followers');
+    $('#gfr').text('4 GitHub Repos');		
+		
 	$.get('https://api.github.com/users/erjjones', function(res) { 		
 		console.log(res);
 		var obj = jQuery.parseJSON(res);	
