@@ -1,5 +1,5 @@
 jQuery(document).ready(function() {
-	$.ajax({
+	/*$.ajax({
 			 type: "GET",
 			 url: "https://api.github.com/users/erjjones",
 			 async: true,
@@ -9,7 +9,7 @@ jQuery(document).ready(function() {
 			$('#gfr').text(data.public_repos + ' GitHub Repos');
 		 }
 		});
-		
+		*/
 	$('#ghw').githubWidget({
 			'username': 'Erjjones',
 			'displayActions': false,
