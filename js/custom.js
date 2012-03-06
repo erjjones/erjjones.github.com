@@ -1,10 +1,12 @@
 jQuery(document).ready(function() {
 	
-	$('#gf').text('6 GitHub Followers');
-    $('#gfr').text('5 GitHub Repos');		
+	$('#gf').text('GitHub Followers');
+    $('#gfr').text('GitHub Repos');		
 	
 	JSONP( 'https://api.github.com/users/erjjones?callback=?', function( response ) {
-		console.log(response);
+		var data = response.data;
+		$('#gf').text(data.followers + ' GitHub Followers');
+        $('#gfr').text(data.public_repos + ' GitHub Repos');
 	});
 	
 	function JSONP( url, callback ) {
@@ -17,26 +19,7 @@ jQuery(document).ready(function() {
 				callback( data );
 			}
 		};
-	}
-	
-	/*jQuery.getJSON("https://api.github.com/users/erjjones&callback=?", function(data) {
-		$('#gf').text(data.followers + ' Followers');
-        $('#gfr').text(data.public_repos + ' Repos');	
-	});*/
-	
-	/*$.get('https://api.github.com/users/erjjones', function(res) { 			
-		var obj = jQuery.parseJSON(res);	
-		if(typeof obj.followers != 'undefined')		
-		{	
-			$('#gf').text(obj.followers + ' GitHub Followers');
-			$('#gfr').text(obj.public_repos + ' GitHub Repos');		
-		}
-		else		
-		{
-			$('#gf').text('6 GitHub Followers');
-			$('#gfr').text('5 GitHub Repos');		
-		}
-    });*/
+	}	
 	
 	$('#ghw').githubWidget({
 			'username': 'Erjjones',
