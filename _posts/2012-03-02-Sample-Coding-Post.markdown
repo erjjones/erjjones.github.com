@@ -25,6 +25,8 @@ category: Coding
 	  <hr>
 	  <h2>Another Section Title</h2>
 	  <p>Like you, we love building awesome products on the web. We love it so much, we decided to help people just like us do it easier, better, and faster. Bootstrap is built for you.</p>
+	  <h2><small>Code Sample<small></h2>
+	  <script src="https://gist.github.com/1679055.js?file=NodeJsProxy"></script>	  
 	  <hr>
 	</div>
 </div> 
