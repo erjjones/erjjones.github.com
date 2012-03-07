@@ -14,6 +14,9 @@ category: Cars
 	  <p>What others are thinking. Add to the conversation and generate some chatter.</p>
 	  <p><a href="https://twitter.com/share" class="twitter-share-button" data-via="erjjones">Tweet</a></p>
 	  <p><g:plusone size="medium"></g:plusone></p>	 
+	  <br/>
+	  <h3>Read later</h3>
+	  <p><a href="http://www.instapaper.com/hello2?url={{ page.url }}&title={{ page.title }}" title="Save {{ page.title }} to Instapaper" target="_blank">Save this blog post</a> for a later read or point of reference.</p>
     </div>
 	<div class="span9 columns">
 	  <h2>Section Title</h2>
