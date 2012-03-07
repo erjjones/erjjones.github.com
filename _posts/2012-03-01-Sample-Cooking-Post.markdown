@@ -13,7 +13,8 @@ category: Cooking
 	  <h3>Topic buzz</h3>
 	  <p>What others are thinking. Add to the conversation and generate some chatter.</p>
 	  <p><a href="https://twitter.com/share" class="twitter-share-button" data-via="erjjones">Tweet</a></p>
-	  <p><g:plusone size="medium"></g:plusone></p>	  
+	  <p><g:plusone size="medium"></g:plusone></p>	 
+	  <p><script type="text/javascript" src="http://www.reddit.com/buttonlite.js?i=2&styled=off&url={{ page.url }}&newwindow=1"></script></p> 	  
 	  <br/>
 	  <h3>Read later</h3>
 	  <p><a href="http://www.instapaper.com/hello2?url={{ page.url }}&title={{ page.title }}" title="Save {{ page.title }} to Instapaper" target="_blank">Save this blog post</a> for a later read or point of reference.</p>
