@@ -14,11 +14,13 @@ category: Coding
 	  <p>What others are thinking. Add to the conversation and generate some chatter.</p>
 	  <p><a href="https://twitter.com/share" class="twitter-share-button" data-via="erjjones">Tweet</a></p>
 	  <p><g:plusone size="medium"></g:plusone></p>	  
-	  <p><script type="text/javascript" src="http://www.reddit.com/buttonlite.js?i=2&styled=off&url=http://erjjones.github.com{{ page.url }}&newwindow=1"></script></p> 	  
+	  <p><script type="text/javascript" src="http://www.reddit.com/buttonlite.js?i=2&styled=off&url=http://erjjones.github.com{{ page.url }}&newwindow=1"></script></p> 	  	  
 	  <br/>
 	  <h3>Read later</h3>
 	  <p><a href="http://www.instapaper.com/hello2?url=http://erjjones.github.com{{ page.url }}&title={{ page.title }}" title="Save {{ page.title }} to Instapaper" target="_blank">Save this blog post</a> for a later read or point of reference.</p>
-	</div>
+	  <h3>Hacker News Feed</h3>
+	  <p><a href="http://news.ycombinator.com/item?id=3679495" target="_blank" title="Read what others are saying on news.ycombinator right now">Read what others are saying</a> on news.ycombinator right now.</p>
+	</div>	
 	<div class="span9 columns">
 	  <h2>Preface</h2>
 	  <p>How I did this blog is nothing new, as a matter of fact many have done exactly what I did and it is well documented. This post is just on how I did it and since it is all very fresh in my mind I thought I would write a post about it.  For other tutorials on how to do this checkout these:</p>  	  
