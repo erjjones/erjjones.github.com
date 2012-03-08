@@ -41,7 +41,7 @@ category: Coding
 	  <p><a href="http://jekyllrb.com/" target="_blank" title="Go to Jekyll">Jekyll</a> is a static site generator.  It is fairly easy to work with and it will allow you to create your blogs (each as a file) and it will know how to plug in simple blog aware properties.</p>
 	  <h2><small>Get some code</small></h3>
 	  <p>To get started here I went the typical <i>lazy route</i> and ripped down a friends GitHub page that was using Jekyll.  So feel free to <a href="https://github.com/erjjones/erjjones.github.com/zipball/master">rip down my GitHub page</a> if you wish or <a href="https://github.com/erjjones/erjjones.github.com" target="_blank">fork my GitHub page</a>.  I'm sure the tutorials that are mentioned at the top of this blog go into great detail on how to <code>rake</code> everything together but I don't always roll that way so to each his own here on this step.</p>
-	  <h2><small>You reap what you sew</small></h3>
+	  <h2><small>You reap what you sow</small></h3>
 	  <p>Next I copied the files into my repository and started looking around to see how it was put together.  Since I like to dive into things without much reading I was quickly confused how to get the site to load on my local machine.  Luckily for you I have figured that out ... after asking my buddy of course!</p>
 	  <h2><small>Install Ruby and Jekyll</small></h3>
 	  <p><strong>Open a GitBash window</strong> and get the latest version of Ruby.</p>
