@@ -56,7 +56,7 @@ category: Coding
 	  <p>...<i>more on Jekyll a bit later</i></p>
 	  <hr>
 	  <h2>Twitter Bootstrap</h2>
-	  <p>Love it or hate it Twitter Bootstrap is undeniably one of the best web frameworks out on the web.  I used Twitter Bootstrap to style my blog site because it is is free, already packaged up and ready to go, well documented, it looks good, and it has everything that I needed.</p>	  
+	  <p>Love it or hate it Twitter Bootstrap is undeniably one of the best web frameworks out on the web.  I used Twitter Bootstrap to style my blog site because it is free, already packaged up and ready to go, well documented, it looks good, and it has everything that I needed.</p>	  
 	  <br/>
 	  <blockquote>
 		<p>When normal sense makes good sense, seek no other sense.</p>
@@ -89,7 +89,7 @@ category: Coding
 	  <p>I work with some super smart guys and gals and as soon as I explained my issue they immediately knew the problem and resolution.</p>
 	  <br/>
 	  <h2><small>JSONP to the Rescue</small></h3>
-	  <p>Fortunately <a href="http://developer.github.com/v3/#json-p-callbacks" title="Go to GitHub Api documentation" target="_blank">GitHub supports JSONP callbacks</a> and I found a <a href="https://gist.github.com/" target="_blank" title="Go to more information about what a Gist is">Gist</a> by another developer that I was able to teak to achieve my end result.</p>
+	  <p>Fortunately <a href="http://developer.github.com/v3/#json-p-callbacks" title="Go to GitHub Api documentation" target="_blank">GitHub supports JSONP callbacks</a> and I found a <a href="https://gist.github.com/" target="_blank" title="Go to more information about what a Gist is">Gist</a> by another developer that I was able to tweak to achieve my end result.</p>
 	  <script src="https://gist.github.com/1996286.js"> </script>
 	  <p>Problem solved and now I have dynamic GitHub follower and GitHub repository buttons.</p>
 	  <p><a class="btn btn-success btn-mini" id="gf" href="https://github.com/erjjones/followers" title="Go to Erjjones GitHub follwers page" target="_blank"></a>&nbsp;<a class="btn btn-success btn-mini" id="gfr" href="https://github.com/erjjones/repositories" title="Go to Erjjones GitHub repositories page" target="_blank"></a></p>
@@ -116,7 +116,7 @@ category: Coding
 	  <p><script type="text/javascript" src="http://www.reddit.com/buttonlite.js?i=2&styled=off&url=http://erjjones.github.com{{ page.url }}&newwindow=1"></script></p> 	  
 	  <hr>
 	  <h2>Disqus</h2>
-	  <p>To me it made perfect sense to use <a href="http://disqus.com/" target="_blank" title="Go to Disqus">Disqus</a> as a comments provider.  As far as I can tell lots of sites are using this provider so we'll see how it goes.  When you setup an account Disqus will have you setup a <i>shortname</i> that you will use in your Disqus widget code.  Using the <i>Admin</i> tools in Disqus will allow you to delete comments and set a list of blackout words.</p>	  
+	  <p>To me it made perfect sense to use <a href="http://disqus.com/" target="_blank" title="Go to Disqus">Disqus</a> as a comments provider.  As far as I can tell lots of sites are using this provider so we'll see how it goes.  When you setup an account Disqus will have you setup a <i>shortname</i> that you will use in your Disqus widget code.  The <i>Admin</i> tools in Disqus will allow you to delete comments and set a list of blackout words.</p>	  
 	  <h2><small>Total Comments</small></h3>	
 	  <p>To get the <a href="http://erjjones.github.com{{ page.url }}#disqus_thread"></a> you can put the following code anywhere on your page or any other page as long as you use the url you would like and have the Disqus Widget code on your page, it just works.</p>
 	  <p><pre><code>&lt;a href="http://erjjones.github.com&#123;&#123; page.url &#125;&#125;#disqus_thread"&gt;&lt;/a&gt;</code></pre></p>	  
