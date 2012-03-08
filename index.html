@@ -15,7 +15,7 @@ title: "Eric Jones"
 			<h2>Blog Posts</h2>
 			  {% for post in site.posts %}	
 			  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-			  <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> . {{ post.category }} . <a href="{{ post.url }}#disqus_thread"></a></small></p>			
+			  <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> . {{ post.category }} . <a href="http://erjjones.github.com{{ post.url }}#disqus_thread"></a></small></p>			
 			  {% endfor %}	
 		</div>		
 		<div class="span4 columns">
@@ -25,7 +25,7 @@ title: "Eric Jones"
 		  <br/>
 		  <p><a href="https://twitter.com/erjjones" class="twitter-follow-button btn btn-mini" data-show-count="false">Follow @erjjones</a> &nbsp; <a href="https://twitter.com/share" class="twitter-share-button" data-via="erjjones">Tweet</a></p>		  
 		  <!--<p><a class="btn btn-success btn-mini" id="gf" href="https://github.com/erjjones/followers" target="_blank"></a>&nbsp;<a class="btn btn-success btn-mini" id="gfr" href="https://github.com/erjjones/repositories" target="_blank"></a>&nbsp;<a class="btn btn-mini btn-info" href="https://github.com/erjjones/Feedback/issues/new" target="_blank"><i class="icon-comment icon-white"></i> Leave me feedback</a></p> -->
-		  <p><a id="gf" href="https://github.com/erjjones/followers" target="_blank"></a> | <a id="gfr" href="https://github.com/erjjones/repositories" target="_blank"></a> | <a href="https://github.com/erjjones/Feedback/issues/new" target="_blank">Leave me feedback</a></p> 
+		  <p><a id="gf" href="https://github.com/erjjones/followers" title="Go to Erjjones GitHub follwers page" target="_blank"></a> | <a id="gfr" href="https://github.com/erjjones/repositories" title="Go to Erjjones GitHub repositories page" target="_blank"></a> | <a href="https://github.com/erjjones/Feedback/issues/new" target="_blank">Leave me feedback</a></p> 
 		  <br/><br/>
 		  <img class="bs-icon" src="/img/glyphicons/glyphicons_042_group.png">
 		  <h2>Blogs/Feeds</small></h2>

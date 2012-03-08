@@ -8,7 +8,7 @@ category: Coding
 	<div class="span3 columns">
 	  <h3>About this topic</h3>
 	  <p>A sample set of the code used in this post has been created for you to download.</p>	  
-	  <p><a href="#" target="_blank" class="btn btn-info">Download source</a></p>
+	  <p><a href="https://github.com/erjjones/erjjones.github.com/zipball/master" target="_blank" class="btn btn-info">Download source</a></p>
 	  <br/>
 	  <h3>Topic buzz</h3>
 	  <p>What others are thinking. Add to the conversation and generate some chatter.</p>
