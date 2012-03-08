@@ -1,7 +1,7 @@
 <div class="row">
 	<p><h1>{{ page.title }}</h1></p>	
 	<div class="span3 column">
-		<h4><strong>{{ page.date | date: "%B %e, %Y" }} <small>. {{ page.category }} . <a href="http://erjjones.github.com{{ page.url }}#disqus_thread" data-disqus-identifier="602823916"  disqus_url="http://erjjones.github.com{{ page.url }}"></a></small></strong></h4>
+		<h4><strong>{{ page.date | date: "%B %e, %Y" }} <small>. {{ page.category }} . <a href="http://erjjones.github.com{{ page.url }}#disqus_thread" disqus_url="http://erjjones.github.com{{ page.url }}#!newthread"></a></small></strong></h4>
 	</div>		
 	<div class="span9 column">
 		<p class="pull-right">{% if page.previous.url %} <a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}"><i class="icon-chevron-left"></i></a> 	{% endif %}   {% if page.next.url %} 	<a href="{{page.next.url}}" title="Next Post: {{page.next.title}}"><i class="icon-chevron-right"></i></a> 	{% endif %} </p>  
