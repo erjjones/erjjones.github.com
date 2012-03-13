@@ -1,7 +1,21 @@
+<script type="text/javascript">
+		/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+		var disqus_shortname = 'ericjones'; // required: replace example with your forum shortname
+		var disqus_identifier = '{{ page.url }}';
+		var disqus_url = 'http://erjjones.github.com{{ page.url }}';
+
+		/* * * DON'T EDIT BELOW THIS LINE * * */
+		(function () {
+			var s = document.createElement('script'); s.async = true;
+			s.type = 'text/javascript';
+			s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+			(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+		}());
+	</script>
 <div class="row">
 	<p><h1>{{ page.title }}</h1></p>	
 	<div class="span3 column">
-		<h4><strong>{{ page.date | date: "%B %e, %Y" }} <small>. {{ page.category }} . <a href="http://erjjones.github.com{{ page.url }}#disqus_thread" disqus_identifier="{{ page.url }}"></a></small></strong></h4>
+		<h4><strong>{{ page.date | date: "%B %e, %Y" }} <small>. {{ page.category }} . <a href="http://erjjones.github.com{{ page.url }}#disqus_thread">Comments</a></small></strong></h4>
 	</div>		
 	<div class="span9 column">
 		<p class="pull-right">{% if page.previous.url %} <a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}"><i class="icon-chevron-left"></i></a> 	{% endif %}   {% if page.next.url %} 	<a href="{{page.next.url}}" title="Next Post: {{page.next.title}}"><i class="icon-chevron-right"></i></a> 	{% endif %} </p>  
