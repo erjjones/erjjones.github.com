@@ -119,8 +119,8 @@ category: Coding
 	  <h2>Disqus</h2>
 	  <p>To me it made perfect sense to use <a href="http://disqus.com/" target="_blank" title="Go to Disqus">Disqus</a> as a comments provider.  As far as I can tell lots of sites are using this provider so we'll see how it goes.  When you setup an account Disqus will have you setup a <i>shortname</i> that you will use in your Disqus widget code.  The <i>Admin</i> tools in Disqus will allow you to delete comments and set a list of blackout words.</p>	  
 	  <h2><small>Total Comments</small></h3>	
-	  <p>To get the <a href="http://erjjones.github.com{{ page.url }}#disqus_thread"></a> you can put the following code anywhere on your page or any other page as long as you use the url you would like and have the Disqus Widget code on your page, it just works.</p>
-	  <p><pre><code>&lt;a href="http://erjjones.github.com&#123;&#123; page.url &#125;&#125;#disqus_thread"&gt;&lt;/a&gt;</code></pre></p>	  
+	  <p>To get the <a href="http://erjjones.github.com{{ page.url }}#disqus_thread" data-disqus-identifier="{{ page.url }}"></a> you can put the following code anywhere on your page or any other page as long as you use the url you would like and have the Disqus Widget code on your page, it just works.</p>
+	  <p><pre><code>&lt;a href="http://erjjones.github.com&#123;&#123; page.url &#125;&#125;#disqus_thread" data-disqus-identifier="&#123;&#123; page.url &#125;&#125;"&gt;&lt;/a&gt;</code></pre></p>	  
 	  <h2><small>Disqus Widget Code</small></h3>	
 	  <script src="https://gist.github.com/1998023.js"> </script>
 	  <hr>
