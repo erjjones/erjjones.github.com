@@ -2,57 +2,17 @@
 layout: layout
 title: "Eric Jones"
 ---
+<table class="table table-striped">
+  <tbody>
+	{% for post in site.posts %}	
+    <tr>
+      <td>
+		  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+          <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> . {{ post.category }} . <a href="http://erjjones.github.com{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}"></a></small></p>
+	  </td>
+    </tr>
+	{% endfor %}			
+  </tbody>
+</table>
 
-<div class="content">	  
-	<div class="row">		
-		<div class="span4 columns">
-		  <img class="bs-icon" src="/img/glyphicons/glyphicons_244_conversation.png">
-		  <h2>Coding. Cars. Cooking.</h2>
-		  <p>This blog is all about coding, cars, and cooking.  The three hobbies I happen to really enjoy.</p>	 		  
-		</div>
-		<div class="span4 columns">
-			<img class="small-bs-icon" src="/img/glyphicons/glyphicons_266_book_open.png">									
-			<h2>Blog Posts</h2>
-			  {% for post in site.posts %}	
-			  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-			  <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> . {{ post.category }} . <a href="http://erjjones.github.com{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}"></a></small></p>			
-			  {% endfor %}	
-		</div>		
-		<div class="span4 columns">
-		  <img class="bs-icon" src="/img/glyphicons/glyphicons_003_user.png">
-		  <h2>About me</h2>
-		  <p><img src="http://www.gravatar.com/avatar/ca1556da271e3177836fdd55bc926ecd.png" alt="Eric Jones" title="Follow me on Twitter @erjjones" class="floatLeft" />I'm <strong>Eric</strong> and I am a lifetime student, amateur software engineer, car enthusiast, and wanna be chef.  Most importantly I am a father, husband and a Christian.</p>	  		  
-		  <br/>
-		  <p><a href="https://twitter.com/erjjones" class="twitter-follow-button btn btn-mini" data-show-count="false">Follow @erjjones</a> &nbsp; <a href="https://twitter.com/share" class="twitter-share-button" data-via="erjjones">Tweet</a></p>		  
-		  <!--<p><a class="btn btn-success btn-mini" id="gf" href="https://github.com/erjjones/followers" target="_blank"></a>&nbsp;<a class="btn btn-success btn-mini" id="gfr" href="https://github.com/erjjones/repositories" target="_blank"></a>&nbsp;<a class="btn btn-mini btn-info" href="https://github.com/erjjones/Feedback/issues/new" target="_blank"><i class="icon-comment icon-white"></i> Leave me feedback</a></p> -->
-		  <p><a id="gf" href="https://github.com/erjjones/followers" title="Go to Erjjones GitHub follwers page" target="_blank"></a> | <a id="gfr" href="https://github.com/erjjones/repositories" title="Go to Erjjones GitHub repositories page" target="_blank"></a> | <a href="https://github.com/erjjones/Feedback/issues/new" target="_blank">Leave me feedback</a></p> 
-		  <br/><br/>
-		  <img class="bs-icon" src="/img/glyphicons/glyphicons_042_group.png">
-		  <h2>Blogs/Feeds</small></h2>
-		  <ul>
-			<li><a href="http://news.ycombinator.com/" target="_blank">Y Combinator</a> hacker news feed</li>
-			<li><a href="http://paulirish.com/" target="_blank">Paul Irish</a> frontend developer's blog</li>
-			<li><a href="http://www.hanselman.com/blog/" target="_blank">Scott Hanselman</a> microsoft evangelist blog</li>
-			<li><a href="http://addyosmani.com/blog/" target="_blank">Addy Osmani</a> frontend developer's blog</li>
-			<li><a href="http://www.schneier.com/" target="_blank">Bruce Schneier</a> security blog</li> 
-			<li><a href="http://www.facebook.com/chipfoose" target="_blank">Chip Foose</a> car designer</li>		
-			<li><a href="http://smittenkitchen.com/" target="_blank">Smitten Kitchen</a> random cooking blog</li>	
-			<li><a href="http://zachholman.com/" target="_blank">Zach Holman</a> github developer's blog</li>		
-			<li><a href="http://www.meetup.com/indyjs/" target="_blank">Indy.js Society</a> local javascript user group</li>
-		  </ul>
-		  <!-- <br/><br/>
-		  <img class="bs-icon" src="/img/icon-github.png">
-		  <h2>Repositories</h2>		  
-		  <div id="ghw"></div>-->
-		  <!-- <br/><br/>
-		  <img class="bs-icon" src="/img/glyphicons/glyphicons_151_edit.png">
-		  <h2>Feedback</h2>
-		  <p>If you have any questions or feedback for me please ask me anything you like and I'll do my best to respond as soon as I can.</p>
-		  <a class="btn btn-mini btn-info" href="https://github.com/erjjones/Feedback/issues/new" target="_blank"><i class="icon-comment icon-white"></i> Leave me feedback</a>-->
-		</div>		
-	</div>
-</div>
-
-<!-- Twitter -->
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
