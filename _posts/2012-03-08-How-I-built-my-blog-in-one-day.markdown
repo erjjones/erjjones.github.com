@@ -2,6 +2,12 @@
 layout: post
 title: How I built my blog in one day
 category: Coding
+tags: jekyll bootstrap github disqus
+year: 2012
+month: 3
+day: 8
+published: true
+summary: A tutorial on how I built my blog
 ---
 
 <div class="row">
@@ -93,7 +99,7 @@ category: Coding
 	  <p>Fortunately <a href="http://developer.github.com/v3/#json-p-callbacks" title="Go to GitHub Api documentation" target="_blank">GitHub supports JSONP callbacks</a> and I found a <a href="https://gist.github.com/" target="_blank" title="Go to more information about what a Gist is">Gist</a> by another developer that I was able to tweak to achieve my end result.</p>
 	  <script src="https://gist.github.com/1996286.js"> </script>
 	  <p>Problem solved and now I have dynamic GitHub follower and GitHub repository buttons.</p>
-	  <p><a class="btn btn-success btn-mini" id="gf" href="https://github.com/erjjones/followers" title="Go to Erjjones GitHub follwers page" target="_blank"></a>&nbsp;<a class="btn btn-success btn-mini" id="gfr" href="https://github.com/erjjones/repositories" title="Go to Erjjones GitHub repositories page" target="_blank"></a></p>
+	  <p><a class="btn btn-success btn-mini" id="gf" href="https://github.com/erjjones/followers" title="Go to Erjjones GitHub followers page" target="_blank"></a>&nbsp;<a class="btn btn-success btn-mini" id="gfr" href="https://github.com/erjjones/repositories" title="Go to Erjjones GitHub repositories page" target="_blank"></a></p>
 	  <hr>
 	  <h2>Social Buzz Widgets</h2>
 	  <p>In order to track how each post is doing in the world of social media I added three social widgets: Twitter, Google+ and Reddit.</p>
