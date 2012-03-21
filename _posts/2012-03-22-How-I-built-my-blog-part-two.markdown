@@ -27,6 +27,9 @@ summary: Part two on how I built my blog
 	  <br/>
 	  <h3>Hacker News Feed</h3>
 	  <p><a href="http://news.ycombinator.com/item?id=" target="_blank" title="Read what others are saying on news.ycombinator right now">Read what others are saying</a> on news.ycombinator right now.</p>
+	  <br/>
+	  <h3>Enjoy The Article?</h3>
+	  <p><a href="http://flattr.com/thing/589122/Eric-Jones" target="_blank"><img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></p>
 	</div>	
 	<div class="span9 columns">
 	  <h2>Preface</h2>
