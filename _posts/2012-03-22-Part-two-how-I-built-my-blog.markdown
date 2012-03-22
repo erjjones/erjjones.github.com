@@ -112,7 +112,7 @@ summary: A follow up post on how I built my blog
 			/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
 			var disqus_shortname = 'ericjones'; // required: replace example with your forum shortname
 			var disqus_identifier = '{{ page.url }}';
-			var disqus_url = '{{ page.url }}';
+			var disqus_url = 'http://erjjones.github.com{{ page.url }}';
 			
 			/* * * DON'T EDIT BELOW THIS LINE * * */
 			(function() {
