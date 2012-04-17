@@ -26,10 +26,7 @@ summary: A tutorial on how I built my blog
 	  <p>Save this article for a later read or point of reference. <a href="http://www.instapaper.com/hello2?url=http://erjjones.github.com{{ page.url }}&title={{ page.title }}" title="Save {{ page.title }} to Instapaper" target="_blank">+Instapaper</a> <a href="http://www.delicious.com/save" title="Save {{ page.title }} to Delicious" onclick="window.open('http://www.delicious.com/save?v=5&noui&jump=close&url='+encodeURIComponent(location.href)+'&title='+encodeURIComponent(document.title), 'delicious','toolbar=no,width=550,height=550'); return false;">+Delicious</a></p>
 	  <br/>
 	  <h3>Hacker News Feed</h3>
-	  <p><a href="http://news.ycombinator.com/item?id=3679495" target="_blank" title="Read what others are saying on news.ycombinator right now">Read what others are saying</a> on news.ycombinator.</p>
-	  <br/>
-	  <h3>Enjoy The Article?</h3>
-	  <p><br/><a href="http://flattr.com/thing/589122/Eric-Jones" target="_blank"><img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></p>
+	  <p><a href="http://news.ycombinator.com/item?id=3679495" target="_blank" title="Read what others are saying on news.ycombinator right now">Read what others are saying</a> on news.ycombinator.</p>	  
 	</div>	
 	<div class="span9 columns">
 	  <h2>Preface</h2>
