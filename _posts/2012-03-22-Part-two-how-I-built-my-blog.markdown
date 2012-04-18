@@ -11,7 +11,7 @@ summary: A follow up post on how I built my blog
 ---
 
 <div class="row">
-	<div class="span3 columns">
+	<div class="span3 columns well">
 	  <h3>About this topic</h3>
 	  <p>After posting my <a href="http://erjjones.github.com/blog/How-I-built-my-blog-in-one-day/" title="Go to How I built my blog in one day">last blog post</a> I realized I had much more to share.  You can download all of the source code here.</p>	  
 	  <p><a href="https://github.com/erjjones/erjjones.github.com/zipball/master" class="btn btn-info">Download source</a></p>
@@ -28,7 +28,7 @@ summary: A follow up post on how I built my blog
 	  <h3>Hacker News Feed</h3>
 	  <p><a href="http://news.ycombinator.com/item?id=3741042" target="_blank" title="Read what others are saying on news.ycombinator right now">Read what others are saying</a> on news.ycombinator.</p>	  
 	</div>	
-	<div class="span9 columns">
+	<div class="span8 columns">
 	  <h2>Preface</h2>
 	  <p>This is a follow up from my last post <a href="http://erjjones.github.com/blog/How-I-built-my-blog-in-one-day/" title="Go to How I built my blog in one day"><i>How I built my blog in one day</i></a>.  There were several items I left out and several more that I have refined.  This blog still only begins to scratch the surface on what someone can do with Jekyll and bootstraping other technologies, so please comment and share your ideas.</p>  	 	  
 	  <hr>	  

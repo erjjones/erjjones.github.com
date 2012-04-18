@@ -11,7 +11,7 @@ summary: A tutorial on how I built my blog
 ---
 
 <div class="row">
-	<div class="span3 columns">
+	<div class="span3 columns well">
 	  <h3>About this topic</h3>
 	  <p>I have always wanted to build my own blog site and this is how I did so in one day.  You can download all of the source code here.</p>	  
 	  <p><a href="https://github.com/erjjones/erjjones.github.com/zipball/master" class="btn btn-info">Download source</a></p>
@@ -28,7 +28,7 @@ summary: A tutorial on how I built my blog
 	  <h3>Hacker News Feed</h3>
 	  <p><a href="http://news.ycombinator.com/item?id=3679495" target="_blank" title="Read what others are saying on news.ycombinator right now">Read what others are saying</a> on news.ycombinator.</p>	  
 	</div>	
-	<div class="span9 columns">
+	<div class="span8 columns">
 	  <h2>Preface</h2>
 	  <p>How I did this blog is nothing new, as a matter of fact many have done exactly what I did and it is well documented. This post is just on how I did it and since it is all very fresh in my mind I thought I would write a post about it.  For other tutorials on how to do this checkout these:</p>  	  
 	  <ul>
