@@ -32,26 +32,21 @@ summary: You do it once in a blue moon so here is a reminder for how to sign tha
 		<h2>Create a Strong Name Key</h2>
 		<p>First you'll need to get your existing strong name key (.snk) or <a href="http://msdn.microsoft.com/en-us/library/6f05ezxy(v=vs.71).aspx" alt="Go to Microsoft and read more" target="_blank">create a strong name key</a></p>
 		<h2>Use Ildasm to Sign a Third Party Assembly</h2>
-		<p>I choose to use Microsoft intermediate language Disassembler (Ildasm) after having issues with <a href="http://msdn.microsoft.com/en-us/library/c405shex.aspx" alt="Go to MSDN to read more" target="_blank">Assembly Linker</a> so go and download <a href="http://www.microsoft.com/en-us/download/details.aspx?id=19988" alt="Go to Microsoft to download and read more" target="_blank">.Net Framework 2.0</a> from Microsoft if you don't already have it.</p>
+		<p>I choose to use <a href="http://msdn.microsoft.com/en-us/library/f7dy01k1(v=vs.80).aspx" target="_blank" alt="Go to MSFT Ildasm">Microsoft intermediate language Disassembler</a> (Ildasm) after having issues with <a href="http://msdn.microsoft.com/en-us/library/c405shex.aspx" alt="Go to MSDN to read more" target="_blank">Assembly Linker</a> so go and download <a href="http://www.microsoft.com/en-us/download/details.aspx?id=19988" alt="Go to Microsoft to download and read more" target="_blank">.Net Framework 2.0</a> from Microsoft if you don't already have it.</p>
 		<h2>First Disassemble the ThirdParty.dll</h2>
 		<p>Open a Visual Studio Command Prompt and type the following command:</p>
-		<p><pre><code>D:\Common\ThirdParty>ildasm /all /out=NewThirdParty.il ThirdParty.dll</code></pre></p>
-		<p>This will create a file called NewThirdParty.il which will be used next to sign and build.</p>
+		<p><pre><code>D:\Common\ThirdParty>ildasm /all /out=ThirdParty.il ThirdParty.dll</code></pre></p>
+		<p>This will create a file called ThirdParty.il which will be used next to sign and build.</p>
 		<h2>Second Rebuild and Sign the ThirdParty.dll</h2>
-		<p>Open a Visual Studio Command Prompt and type the following command:</p>
-		<p><pre><code>D:\Common\ThirdParty>ildasm /all /out=NewThirdParty.il ThirdParty.dll</code></pre></p>
-		<h2>Next Switch Your Assemblies</h2>
-		<p>
-			<ul>
-				<li>Delete ThirdParty.dll</li>
-				<li>Rename NewThirdParty.dll to ThirdParty.dll</li>
-			</ul>
-		</p>
+		<p>Rename or backup your original third party assembly. Open a Visual Studio Command Prompt and type the following command:</p>		
+		<p><pre><code>D:\Common\ThirdParty>ilasm /dll /key=YourKey.snk ThirdParty.il</code></pre></p>				
 		<h2>Finally Verify Assembly was Signed</h2>
 		<p>You'll want to verify that your assembly is now signed.  To do this Open an Visual Studio Command Prompt and type the following command:</p>
 		<p><pre><code>sn -vf ThirdParty.dll</code></pre></p>
 		<p>You should get an output similar to..</p>
 		<p><pre><code>Assembly 'ThirdParty.dll' is valid</code></pre></p>
+		<h2>Conclusion</h2>
+		<p>This is certainly happy path and only works with assemblies built using .NET libraries.  If other libraries are included in the assembly you are trying to sign then you'll have to do some additional steps not listed on this post.</p>
 	</div>
 </div> 
 
