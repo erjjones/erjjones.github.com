@@ -10,7 +10,7 @@
 	<!-- Le styles -->
 	<link href="/css/bootstrap.css" rel="stylesheet">
     <link href="/css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="/css/docs.css" rel="stylesheet">    
+    <link href="/css/docs.css" rel="stylesheet">  		 
 	<link href="/js/google-code-prettify/prettify.css" rel="stylesheet">	
 	
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -26,29 +26,24 @@
 <div class="container">
 	<div class="marketing">
 		<div class="content">	  
-			<div class="row">								
-			    <div class="span4 columns well">
-				  <h2>Hello. I'm Eric</h2>
-				  <p><img src="http://www.gravatar.com/avatar/ca1556da271e3177836fdd55bc926ecd.png" alt="Eric Jones" title="Follow me on Twitter @erjjones" class="floatLeft" />I am a student for life, amateur software engineer, car enthusiast, and wanna be chef.  Most importantly I am a father, husband and a Christian.</p>	  		  
-				  <br/>
-				  <p><a href="https://twitter.com/erjjones" class="twitter-follow-button btn btn-mini" data-show-count="false">Follow @erjjones</a> &nbsp; <a href="https://twitter.com/share" class="twitter-share-button" data-via="erjjones">Tweet</a></p>		  				  
-				  <p><a id="gf" href="https://github.com/erjjones/followers" title="Go to Erjjones GitHub followers page" target="_blank"></a> | <a id="gfr" href="https://github.com/erjjones/repositories" title="Go to Erjjones GitHub repositories page" target="_blank"></a> | <a href="https://github.com/erjjones/Feedback/issues/new" target="_blank">Leave me feedback</a></p>				  
-				</div>					
-				<div class="span6 columns">								
+			<div class="row">			   				
+				<div class="span9 columns">								
 					{{ content }} 					
-				</div>	
-				<!-- <div class="span4 columns">								
-					{% include tag_sidebar.html %}
-					{% include archive.html %} 
-				</div>	-->
-				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				</div>				
+			<div class="span3 columns">
+				<h2>Hello. I'm Eric</h2>
+				<p><img src="http://www.gravatar.com/avatar/ca1556da271e3177836fdd55bc926ecd.png" alt="Eric Jones" title="Follow me on Twitter @erjjones"  class="floatLeft" />			
+				I am a student for life, amateur software engineer, car enthusiast, and wanna be chef.  Most importantly I am a father, husband and a Christian.</p>					
+				<p><iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=erjjones&repo=erjjones.github.com&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="80px" height="20px"></iframe>&nbsp;<iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=erjjones&repo=erjjones.github.com&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="98px" height="20px"></iframe></p>
+				<p><a href="https://twitter.com/erjjones" class="twitter-follow-button" data-link-color="#0069D6" data-show-count="true">Follow @erjjones</a></p>
+				  
 			</div>
 		</div>
+		</div>			
 	</div>
+		{% include footer.html %}
+</div><!-- /container -->
 
-	{% include footer.html %}
-
- </div><!-- /container -->
 
 
 
