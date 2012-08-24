@@ -13,7 +13,7 @@ title: "Eric Jones"
 		<td>
 			<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 			<i>{{ post.summary }}</i>
-			<p><small>{{ post.category }} . {% for tag in post.tags %} <a href="/tags/{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;">{{ tag }}</a>  {% if forloop.last != true %} {% endif %} {% endfor %} . <a href="http://erjjones.github.com{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}"></a></small></p>
+			<p><small>{{ post.category }} . {% for tag in post.tags %} <a href="/tags/{{ tag }}" rel="tooltip" title="View posts tagged with &quot;{{ tag }}&quot;">{{ tag }}</a>  {% if forloop.last != true %} {% endif %} {% endfor %} . <a href="http://erjjones.github.com{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}"></a></small></p>
 		</td>
     </tr>
 	{% endfor %}			
