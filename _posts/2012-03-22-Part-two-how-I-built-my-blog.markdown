@@ -11,26 +11,10 @@ summary: A follow up post on how I built my blog
 ---
 
 <div class="row">
-	<div class="span3 columns well">
-	  <h3>About this topic</h3>
-	  <p>After posting my <a href="http://erjjones.github.com/blog/How-I-built-my-blog-in-one-day/" title="Go to How I built my blog in one day">last blog post</a> I realized I had much more to share.  You can download all of the source code here.</p>	  
-	  <p><a href="https://github.com/erjjones/erjjones.github.com/zipball/master" class="btn btn-info">Download source</a></p>
-	  <br/>
-	  <h3>Topic buzz</h3>
-	  <p>What others are thinking. Add to the conversation and generate some chatter.</p>
-	  <p><a href="https://twitter.com/share" class="twitter-share-button" data-via="erjjones">Tweet</a></p>
-	  <p><g:plusone size="medium"></g:plusone></p>	  
-	  <p><script type="text/javascript" src="http://www.reddit.com/buttonlite.js?i=2&styled=off&url=http://erjjones.github.com{{ page.url }}&newwindow=1"></script></p> 	  	  
-	  <br/>
-	  <h3>Read later</h3>
-	  <p>Save this article for a later read or point of reference. <a href="http://www.instapaper.com/hello2?url=http://erjjones.github.com{{ page.url }}&title={{ page.title }}" title="Save {{ page.title }} to Instapaper" target="_blank">+Instapaper</a> <a href="http://www.delicious.com/save" title="Save {{ page.title }} to Delicious" onclick="window.open('http://www.delicious.com/save?v=5&noui&jump=close&url='+encodeURIComponent(location.href)+'&title='+encodeURIComponent(document.title), 'delicious','toolbar=no,width=550,height=550'); return false;">+Delicious</a></p>
-	  <br/>
-	  <h3>Hacker News Feed</h3>
-	  <p><a href="http://news.ycombinator.com/item?id=3741042" target="_blank" title="Read what others are saying on news.ycombinator right now">Read what others are saying</a> on news.ycombinator.</p>	  
-	</div>	
-	<div class="span8 columns">
+	<div class="span9 columns">
 	  <h2>Preface</h2>
 	  <p>This is a follow up from my last post <a href="http://erjjones.github.com/blog/How-I-built-my-blog-in-one-day/" title="Go to How I built my blog in one day"><i>How I built my blog in one day</i></a>.  There were several items I left out and several more that I have refined.  This blog still only begins to scratch the surface on what someone can do with Jekyll and bootstraping other technologies, so please comment and share your ideas.</p>  	 	  
+	  <p><a href="https://github.com/erjjones/erjjones.github.com/zipball/master" class="btn btn-info">Download source</a></p>
 	  <hr>	  
 	  <h2>Jekyll</h2>	  
 	  <h2><small>Post Configuration</small></h2>
@@ -94,14 +78,13 @@ summary: A follow up post on how I built my blog
 
 <div class="row">
 	<div class="span3 columns">&nbsp;</div>
-	<div class="span9 column">
+	<div class="span6 column">
 			<p class="pull-right">{% if page.previous.url %} <a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}"><i class="icon-chevron-left"></i></a> 	{% endif %}   {% if page.next.url %} 	<a href="{{page.next.url}}" title="Next Post: {{page.next.title}}"><i class="icon-chevron-right"></i></a> 	{% endif %} </p>  
 	</div>
 </div>
-
+	
 <div class="row">
-	<div class="span3 columns">&nbsp;</div>
-    <div class="span9 columns">    
+	<div class="span9 columns">    
 		<h2>Comments Section</h2>
 	    <p>Feel free to comment on the post but keep it clean and on topic.</p>	
 		<div id="disqus_thread"></div>

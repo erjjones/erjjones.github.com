@@ -10,25 +10,11 @@ published: true
 summary: You do it once in a blue moon so here is a reminder for how to sign that third party assembly you added.
 ---
 
-<div class="row">
-	<div class="span3 columns well">
-	  <h3>About this topic</h3>
-	  <p>Currently I am on a project where we added a third party dll and it needs signed so this is just a quick write up on how to do it.</p>	  
-	  <p><a href="http://www.microsoft.com/en-us/download/details.aspx?id=19988" alt="Go to Microsoft Download Center" class="btn btn-info" target="_blank">Download .NET Framework 2.0</a></p>
-	  <br/>
-	  <h3>Topic buzz</h3>
-	  <p>What others are thinking. Add to the conversation and generate some chatter.</p>
-	  <p><a href="https://twitter.com/share" class="twitter-share-button" data-via="erjjones">Tweet</a></p>
-	  <p><g:plusone size="medium"></g:plusone></p>	  
-	  <p><script type="text/javascript" src="http://www.reddit.com/buttonlite.js?i=2&styled=off&url=http://erjjones.github.com{{ page.url }}&newwindow=1"></script></p> 	  	  
-	  <br/>
-	  <h3>Read later</h3>
-	  <p>Save this article for a later read or point of reference. <a href="http://www.instapaper.com/hello2?url=http://erjjones.github.com{{ page.url }}&title={{ page.title }}" title="Save {{ page.title }} to Instapaper" target="_blank">+Instapaper</a> <a href="http://www.delicious.com/save" title="Save {{ page.title }} to Delicious" onclick="window.open('http://www.delicious.com/save?v=5&noui&jump=close&url='+encodeURIComponent(location.href)+'&title='+encodeURIComponent(document.title), 'delicious','toolbar=no,width=550,height=550'); return false;">+Delicious</a></p>
-	  <br/>	  
-	</div>	
-	<div class="span8 columns">
+<div class="row">	
+	<div class="span9 columns">
 	  <h2>Preface</h2>
 	  <p>So you added a third party dll to your project and now you need to sign it.  Sometimes you might not have the code to modify the assembly and add your strong name key.  This post will describe how you can go about signing a third party assembly without compiling the code.</p>
+	  <p><a href="http://www.microsoft.com/en-us/download/details.aspx?id=19988" alt="Go to Microsoft Download Center" class="btn btn-info" target="_blank">Download .NET Framework 2.0</a></p>
 		<h2>Create a Strong Name Key</h2>
 		<p>First you'll need to get your existing strong name key (.snk) or <a href="http://msdn.microsoft.com/en-us/library/6f05ezxy(v=vs.71).aspx" alt="Go to Microsoft and read more" target="_blank">create a strong name key</a></p>
 		<h2>Use Ildasm to Sign a Third Party Assembly</h2>
@@ -50,15 +36,13 @@ summary: You do it once in a blue moon so here is a reminder for how to sign tha
 	</div>
 </div> 
 
-<div class="row">
-	<div class="span3 columns">&nbsp;</div>
+<div class="row">	
 	<div class="span9 column">
 			<p class="pull-right">{% if page.previous.url %} <a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}"><i class="icon-chevron-left"></i></a> 	{% endif %}   {% if page.next.url %} 	<a href="{{page.next.url}}" title="Next Post: {{page.next.title}}"><i class="icon-chevron-right"></i></a> 	{% endif %} </p>  
 	</div>
 </div>
 
-<div class="row">
-	<div class="span3 columns">&nbsp;</div>
+<div class="row">	
     <div class="span9 columns">    
 		<h2>Comments Section</h2>
 	    <p>Feel free to comment on the post but keep it clean and on topic.</p>	
