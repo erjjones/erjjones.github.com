@@ -8,6 +8,7 @@ month: 3
 day: 22
 published: true
 summary: A follow up post on how I built my blog
+image: post_two.jpg
 ---
 
 <div class="row">

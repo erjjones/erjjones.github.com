@@ -8,6 +8,7 @@ month: 3
 day: 8
 published: true
 summary: A tutorial on how I built my blog
+image: post_one.jpg
 ---
 
 <div class="row">	

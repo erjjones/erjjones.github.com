@@ -235,17 +235,27 @@ hr.soften {
   top: 5px;
 }
 
+.mebox { 
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border: 1px solid #ccc;
+	-webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
 
 /* Marketing section of Overview
 -------------------------------------------------- */
 .marketing .row {
-  margin-bottom: 9px;
+  margin-bottom: 9px; 
 }
 .marketing h1 {
   margin: 36px 0 27px;
   font-size: 40px;
   font-weight: 300;
-  text-align: center;
+  text-align: left;
 }
 .marketing h2,
 .marketing h3 {
@@ -275,6 +285,7 @@ hr.soften {
   margin-top: 45px;
   padding: 35px 0 36px;
   border-top: 1px solid #e5e5e5;
+  background-color: #f9f9f9;
 }
 .footer p {
   margin-bottom: 0;

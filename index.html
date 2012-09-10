@@ -2,14 +2,17 @@
 layout: layout
 title: "Eric Jones"
 ---
-<h2>Posts</h2>
+<h2>Past Posts</h2>
 <table class="table table-striped">
-  <tbody>
-	{% for post in site.posts %}	
+  <tbody>  
+	{% for post in site.posts offset: 1 limit: 50 %}
     <tr>
 		<td>
 			<p><small><b>{{ post.date | date: "%B %e, %Y" }}</b></small></p>
-		</td>		
+		</td>
+		<td>
+			<a href="{{ post.url }}"><img border="0" width="250" height="150" src="/img/posts/{{ post.image }}" /></a>
+		</td>
 		<td>
 			<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 			<i>{{ post.summary }}</i>
@@ -19,3 +22,4 @@ title: "Eric Jones"
 	{% endfor %}			
   </tbody>
 </table> 
+			
