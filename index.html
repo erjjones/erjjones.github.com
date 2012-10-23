@@ -2,42 +2,16 @@
 layout: layout
 title: "Eric Jones"
 ---
-<!--<h2>Past Posts</h2>
-<table class="table table-striped">
-  <tbody>  
-	{% for post in site.posts offset: 1 limit: 50 %}
-    <tr>
-		<td>
-			<p><small><b>{{ post.date | date: "%B %e, %Y" }}</b></small></p>
-		</td>
-		<td>
-			<a href="{{ post.url }}"><img border="0" width="250" height="150" src="/img/posts/{{ post.image }}" /></a>
-		</td>
-		<td>
-			<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-			<i>{{ post.summary }}</i>
-			<p><small>{{ post.category }} . {% for tag in post.tags %} <a href="/tags/{{ tag }}" rel="tooltip" title="View posts tagged with &quot;{{ tag }}&quot;">{{ tag }}</a>  {% if forloop.last != true %} {% endif %} {% endfor %} . <a href="http://erjjones.github.com{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}"></a></small></p>
-		</td>
-    </tr>
-	{% endfor %}			
-  </tbody>
-</table> -->
-
 {% for post in site.posts offset: 0 limit: 50 %}
 <div class="row">
-  <div class="span8">
-    <!--<div class="row">
-      <div class="span8">
-        <h4><strong><a href="{{ post.url }}">{{ post.title }}</a></strong></h4>
-      </div>
-    </div>-->
+  <div class="span7">    
     <div class="row">
       <div class="span2">
-        <a href="{{ post.url }}" ><!-- class="thumbnail" -->
+        <a href="{{ post.url }}" >
             <img border="0" width="250" height="150" src="/img/posts/{{ post.image }}" alt="">
         </a>
       </div>
-      <div class="span6">
+      <div class="span5">
 		<h4><strong><a href="{{ post.url }}">{{ post.title }}</a></strong></h4>      
         <p>
           {{ post.summary }}
@@ -49,21 +23,9 @@ title: "Eric Jones"
         </p>
         <p><a href="{{ post.url }}">Read more</a></p>
       </div>
-    </div>
-    <!--<div class="row">
-      <div class="span8">
-        <p></p>
-        <p>
-          <i class="icon-user"></i> by <a href="http://twitter.com/erjjones">Eric</a> 
-          | <i class="icon-calendar"></i> {{ post.date | date: "%B %e, %Y" }}
-          | <i class="icon-comment"></i> <a href="#">3 Comments</a>     
-		  | <i class="icon-tags"></i> Tags :{% for tag in post.tags %} <a href="/tags/{{ tag }}" rel="tooltip" title="View posts tagged with &quot;{{ tag }}&quot;"><span class="label label-info">{{ tag }}</span></a>  {% if forloop.last != true %} {% endif %} {% endfor %}		            
-        </p>
-      </div>
-    </div>-->
+    </div>    
 	<hr>
   </div>
 </div>
-<!--<hr>-->
 {% endfor %}	
 			
