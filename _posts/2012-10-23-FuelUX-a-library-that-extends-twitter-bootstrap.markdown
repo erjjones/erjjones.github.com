@@ -46,7 +46,7 @@ image: post_four.png
 		
 		<h2>Conclusion</h2>
 		<p>It is clear that <a href="http://exacttarget.github.com/fuelux/" target="_blank">FuelUX</a> will grow with Bootstrap and also with support of new controls along the way. It looks super polished, nicely done!  I can't wait to watch this grow and see what others contribute!</p>
-		<p><a href="http://news.ycombinator.com/item?id=4690298" target="_blank" title="See what others are saying on Hacker News"><img src="/img/yc500.gif" title="See {{ page.title }} on Hacker News" /> Hacker News link</a></p>
+		<p><a href="http://news.ycombinator.com/item?id=4688066" target="_blank" title="See what others are saying on Hacker News"><img src="/img/yc500.gif" title="See {{ page.title }} on Hacker News" /> Hacker News link</a></p>
 	</div>
 </div> 
 
